@@ -1,6 +1,6 @@
 public class AviaryPredators {
-int cage = 3;
-int count = 0;
+//int cage = 3;
+//int count = 0;
    // public void add(animalP) {
     //    if (count >= cage) {
       //      System.out.println("мест нет");
