@@ -9,9 +9,7 @@ public class Lion extends Predators {
 
 
 
-    public void dontEat(Vegetables  bananas){
-        System.out.println("Я такое не ем");
-    }
+
 
     @Override
     public void areYouHungry() {

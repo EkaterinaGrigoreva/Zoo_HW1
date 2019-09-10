@@ -8,9 +8,7 @@ public class Giraffe extends Herbivores {
     }
 
 
-    public void dontEat(Meat meat){
-        System.out.println("Я такое не ем");
-    }
+
 
     @Override
     public void areYouHungry() {

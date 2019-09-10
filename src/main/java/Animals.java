@@ -20,9 +20,7 @@ public abstract class Animals {
         return hungry >= 0;
     }
 
-    public void dontEat(Vegetables vegetables){};
 
-    public void dontEat(Meat meat){};
 
     public void areYouHungry() {
         if (hungry >= 0) {

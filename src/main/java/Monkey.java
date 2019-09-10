@@ -7,9 +7,7 @@ public class Monkey extends Herbivores {
         return false;
     }
 
-    public void dontEat(Meat meat){
-        System.out.println("Я такое не ем");
-    }
+
 
     @Override
     public void areYouHungry() {
