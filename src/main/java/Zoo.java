@@ -83,13 +83,32 @@ public class Zoo {
             }
         }
     }
+    Predators [] animalP;
+    public static void addAnimal(Predators... animalP) {
+
+
+        Predators[] predator = new Predators[3];
+        for (int i = 0; i < predator.length; i++) {
+            predator[i] = new Predators("", 100){};
+
+            for (int j = 0; j < AviaryPredators.cage; j++) {
+            }
+            if (predator.length > AviaryPredators.cage) {
+                System.out.println("мест нет");
+            } else {
+                System.out.println("добро пожаловать домой");
+            }
+
+        }
+
+
+
+    }
 
 
 
 
-
-
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 
 
         Monkey bob = new Monkey("Bob", -100);
@@ -106,10 +125,8 @@ public class Zoo {
 
 
 
-        addAnimal(simba);
-        addAnimal(timon);
-        addAnimal(king);
-        addAnimal(molly);
+        addAnimal(simba, timon, king, molly);
+
 
 
     }
